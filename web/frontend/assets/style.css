@@ -1,0 +1,25 @@
+.overflow-container {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  border: 1px solid #f3f3f3;
+  border-radius: 4px;
+}
+table tbody tr:nth-child(odd) {
+  background: #f7f7f7;
+}
+table th, table td {
+  padding: 1.2rem 1.5rem;
+  text-align: left;
+  vertical-align: text-top;
+}
+thead tr th {
+  border-bottom: 1px solid #f3f3f3 !important;
+}
+/* .visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+} */
